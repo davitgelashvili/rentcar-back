@@ -153,7 +153,7 @@ const reserveSeat = async (req, res) => {
     return res.status(500).send("Something went wrong while creating car!");
   }
 };
-
+ 
 const deleteReserve = async (req, res) => {
   try {
     const { car_id, seat_id } = req.query;
